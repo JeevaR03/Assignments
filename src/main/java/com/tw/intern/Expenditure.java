@@ -13,8 +13,6 @@ public class Expenditure {
             update(friendList.get(index), friendList);
         }
         result(friendList);
-
-
     }
 
     public static void update(Friend friend, List<Friend> friendList) {

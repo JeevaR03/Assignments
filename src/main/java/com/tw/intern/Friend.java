@@ -14,7 +14,6 @@ public class Friend {
         this.friendsList = friendsList;
     }
 
-
     public void setAmountOwe(int amountOwe) {
         this.amountOwe += amountOwe;
     }

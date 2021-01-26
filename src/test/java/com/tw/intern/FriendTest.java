@@ -31,6 +31,7 @@ public class FriendTest {
             Friend friend = new Friend(friendName.get(initial), amountSpent.get(initial), listOfFriends.get(initial));
             friendList.add(friend);
         }
+
         System.out.println(friendList);
         Expenditure expenditure = new Expenditure();
         expenditure.calculate(friendList);
