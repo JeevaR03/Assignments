@@ -12,7 +12,7 @@ public class FriendTest {
     @Test
 
     public void shouldReturnResult() {
-        //When
+        //Given
         int numberOfFriends = 4;
         List<String> friendName = Arrays.asList("A", "B", "C", "D");
         List<Integer> amountSpent = new ArrayList<>();
@@ -36,6 +36,7 @@ public class FriendTest {
         expenditure.calculate(friendList);
         List<String> actual = new ArrayList<>(Expenditure.resultList);
         List<String> expected = new ArrayList<>(Arrays.asList("A gives 75", "B gets 325", "C gives 275", "D gets 25"));
+        //Then
         Assertions.assertEquals(expected, actual);
 
 

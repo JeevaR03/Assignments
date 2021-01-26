@@ -12,7 +12,6 @@ public class Expenditure {
         for (int index = 0; index < numberOfFriends; index++) {
             update(friendList.get(index), friendList);
         }
-
         result(friendList);
 
 
