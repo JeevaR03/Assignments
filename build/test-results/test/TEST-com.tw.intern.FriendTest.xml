@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tw.intern.FriendTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-26T14:37:10" hostname="Jeevas-MacBook-Pro.local" time="0.031">
+  <properties/>
+  <testcase name="shouldReturnResult()" classname="com.tw.intern.FriendTest" time="0.031"/>
+  <system-out><![CDATA[[com.tw.intern.Friend@bd7b760, com.tw.intern.Friend@761e1542, com.tw.intern.Friend@6787aac3, com.tw.intern.Friend@1ca0622e]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,2 @@
+com/tw/intern/FriendTest.java
+ com.tw.intern.FriendTest
